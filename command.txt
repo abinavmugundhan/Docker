@@ -1,1 +1,17 @@
-sudo apt-get install docker.io
+sudo apt update
+sudo apt upgrade -y
+sudo apt-get install docker.io 
+docker --version
+docker 
+docker login
+docker volume ls
+docker volume help
+docker info
+docker system df
+docker system events
+man docker system-df
+man docker system prune
+sudo docker stats
+docker search httpd
+docker images 
+docker pull httpd
