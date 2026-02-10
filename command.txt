@@ -15,3 +15,10 @@ sudo docker stats
 docker search httpd
 docker images 
 docker pull httpd
+docker run --name web2 httpd
+docker run -d --name web2 httpd
+sudo docker exec -it web2 /bin/bash - it(interactive terminal)
+ls -lrt
+sudo docker cp serberifo web2:/tmp
+sudo docker rm 
+sudo docker rm -f web2
