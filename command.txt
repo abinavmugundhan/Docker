@@ -22,3 +22,5 @@ ls -lrt
 sudo docker cp serberifo web2:/tmp
 sudo docker rm 
 sudo docker rm -f web2
+docker save <container id> 
+1.22.23
