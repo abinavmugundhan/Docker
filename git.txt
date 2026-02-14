@@ -1,0 +1,5 @@
+git version
+git config --global user.name 'abinavmugundhan'
+git config --global user.email 'abinavmugundhan011@gmail.com'
+git init
+git config --global init.defaultbranch main
